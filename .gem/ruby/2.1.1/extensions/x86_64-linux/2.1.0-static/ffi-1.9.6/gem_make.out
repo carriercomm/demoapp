@@ -1,0 +1,45 @@
+/home/action/.parts/packages/ruby2.1/2.1.1/bin/ruby extconf.rb 
+checking for ffi_call() in -lffi... yes
+checking for ffi_prep_closure()... yes
+checking for ffi_raw_call()... yes
+checking for ffi_prep_raw_closure()... yes
+checking for rb_thread_blocking_region()... yes
+checking for rb_thread_call_with_gvl()... yes
+checking for rb_thread_call_without_gvl()... yes
+checking for ffi_prep_cif_var()... yes
+creating extconf.h
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling Thread.c
+compiling StructByValue.c
+compiling Call.c
+compiling Pointer.c
+compiling Struct.c
+compiling ClosurePool.c
+compiling ffi.c
+compiling DynamicLibrary.c
+compiling Variadic.c
+compiling MethodHandle.c
+compiling FunctionInfo.c
+compiling StructLayout.c
+compiling LastError.c
+compiling Types.c
+compiling Platform.c
+compiling MappedType.c
+compiling MemoryPointer.c
+compiling DataConverter.c
+compiling AbstractMemory.c
+compiling Function.c
+compiling ArrayType.c
+compiling LongDouble.c
+compiling Buffer.c
+compiling StructByReference.c
+compiling Type.c
+linking shared-object ffi_c.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 ffi_c.so ./.gem.20141023-599-1e4ix3x
+installing default ffi_c libraries
